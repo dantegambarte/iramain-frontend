@@ -1,5 +1,10 @@
 .titleNavbar {
     margin: 0 7rem;
+    border: 1px solid grey;
+}
+
+.titleNavbar > button:hover{
+    color: white;
 }
 
 .circle-icon {
@@ -13,5 +18,11 @@
     line-height: 1.6em;
     margin-right: 15px;
     text-align: center;
-    width: 3em;
+    width: 2em;
+}
+
+.navBG{
+    --bs-bg-opacity: 1;
+    background: rgb(72,73,75);
+    color: white;
 }

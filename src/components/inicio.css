@@ -6,3 +6,13 @@
     display: flex;
     align-items: center;
 }
+
+.card-group{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card{
+    margin: 0 1rem;
+    /* border: 1.5px solid cadetblue; */
+}
