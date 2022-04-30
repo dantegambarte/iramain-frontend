@@ -6,6 +6,7 @@ import Contacto from "./components/contacto.js";
 import Turnos from "./components/turnos.js";
 import SabiasQue from "./components/sabias-que.js";
 import NavbarHome from "./layouts/navbar.js";
+import FooterPrincipal from "./layouts/footer";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavbarHome />}>
-            <Route path="/inicio" element={<Inicio />} />
+            <Route index element={<Inicio />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/sabias-que" element={<SabiasQue />} />
             <Route path="/turnos" element={<Turnos />} />
@@ -21,6 +22,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <FooterPrincipal/>
     </div>
   );
 }

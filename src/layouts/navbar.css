@@ -1,0 +1,17 @@
+.titleNavbar {
+    margin: 0 7rem;
+}
+
+.circle-icon {
+    background: black;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 3em;
+}
