@@ -1,6 +1,7 @@
 .titleNavbar {
     margin: 0 7rem;
-    border: 1px solid grey;
+    border: 1px solid cadetblue;
+    background-color: black;
 }
 
 .titleNavbar > button:hover{
