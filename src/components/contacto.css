@@ -1,20 +1,28 @@
-.title-contacto{
-    margin-left: 2rem;
-    margin-top: 1rem;
+.cards-container{
+    align-items: center;
 }
 
-.content-cards{
-    align-items: center;
-    margin: 1rem;
+.card-single{
+    display: flex;
+    justify-content: center;
 }
 
-.card-contacto{
-    align-items: center;
+.card-content{
     padding-bottom: 2rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-contacto{
     height: 35rem;
+}
+
+.back-ig{
+    background-color: rgb(200, 55, 172);
+    color: white;
+}
+
+.block{
+    width: 100%;    
 }
