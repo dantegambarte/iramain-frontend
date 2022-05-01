@@ -1,3 +1,8 @@
+.title-contacto{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
 .cards-container{
     align-items: center;
 }
@@ -15,7 +20,7 @@
 }
 
 .img-contacto{
-    height: 35rem;
+    height: 40rem;
 }
 
 .back-ig{
@@ -23,6 +28,21 @@
     color: white;
 }
 
-.block{
-    width: 100%;    
+.back-ig:hover{
+    color: white;
+    background-color: rgb(177, 51, 152);
+}
+
+.btn-block{
+    width: 100%;
+}
+
+.icon-color-invert{
+    filter: invert(100%);
+}
+
+.alig-icon-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

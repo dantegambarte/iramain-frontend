@@ -7,11 +7,21 @@ import contactoIg from "./../img/contacto-ig.jpg";
 import contactoWsp from "./../img/contacto-wsp.jpg";
 import contactoFijo from "./../img/contacto-fijo.jpg";
 import { Link } from "react-router-dom";
+import iconWsp from "./../icon/whatsapp-brands.svg";
+import iconIg from "./../icon/instagram-brands.svg";
 
 const iconPhone = (
   <span>
-    <FontAwesomeIcon icon={faPhone} />
+    <FontAwesomeIcon icon={faPhone} className="me-2" />
   </span>
+);
+
+const iconWhatsApp = (
+  <img src={iconWsp} className="icon-color-invert me-2" width="16"></img>
+);
+
+const iconInstagram = (
+  <img src={iconIg} className="icon-color-invert me-2" width="16"></img>
 );
 
 const Contacto = () => {
@@ -25,42 +35,33 @@ const Contacto = () => {
             <div className="card-content">
               <h2>Contacto vía Llamada</h2>
               <img src={contactoFijo} className="img-contacto" />
-              <button
-                as={Link}
-                to="tel:+5493814219327"
-                className="btn btn-primary block"
-                title={iconPhone}
+              <a
+                className="btn btn-primary btn-block"
+                href="tel:+5493814219327"
               >
-                Llamar
-              </button>
+                <div className="alig-icon-text">{iconPhone} Llamar</div>
+              </a>
             </div>
           </div>
           <div className="col card-single">
             <div className="card-content">
               <h2>Contacto vía Whatsapp</h2>
               <img src={contactoWsp} className="img-contacto" />
-              <button
-                as={Link}
-                to="tel:+5493814219327"
-                className="btn btn-success block"
-                title={iconPhone}
+              <a
+                className="btn btn-success btn-block"
+                href="https://wa.me/+5493813512978"
               >
-                Whatsapp
-              </button>
+                <div className="alig-icon-text">{iconWhatsApp}Whatsapp</div>
+              </a>
             </div>
           </div>
           <div className="col card-single">
             <div className="card-content">
               <h2>Contacto vía Instagram</h2>
               <img src={contactoIg} className="img-contacto" />
-              <button
-                as={Link}
-                to="tel:+5493814219327"
-                className="btn block back-ig"
-                title={iconPhone}
-              >
-                Instagram
-              </button>
+              <a className="btn back-ig btn-block" href="https://www.instagram.com/oftalmologia.iramain/">
+                <div className="alig-icon-text">{iconInstagram}Instagram</div>
+              </a>
             </div>
           </div>
         </div>
