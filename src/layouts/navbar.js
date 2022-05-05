@@ -32,7 +32,7 @@ const NavbarPrincipal = () => {
       <Navbar className="navBG" variant="dark" expand="xl">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
-            <img src={logo} height="40" className="d-inline-block align-top" />
+            <img src={logo} height="40" className="d-inline-block align-top logo-navbar" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -1,48 +1,75 @@
-.title-contacto{
+.title-contacto {
     margin-left: 2rem;
     margin-top: 1rem;
 }
 
-.cards-container{
+.cards-container {
     align-items: center;
 }
 
-.card-single{
+.card-single {
     display: flex;
     justify-content: center;
 }
 
-.card-content{
+.card-content {
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.img-contacto{
+.img-contacto {
     height: 40rem;
 }
 
-.back-ig{
+.back-ig {
     background-color: rgb(200, 55, 172);
     color: white;
 }
 
-.back-ig:hover{
+.back-ig:hover {
     color: white;
     background-color: rgb(177, 51, 152);
 }
 
-.btn-block{
+.btn-block {
     width: 100%;
 }
 
-.icon-color-invert{
+.icon-color-invert {
     filter: invert(100%);
 }
 
-.alig-icon-text{
+.alig-icon-text {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 400px;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.text-after-map {
+    margin-left: 8rem;
+}
+
+.ubication-in-map{
+    width: 600;
+    height: 450;
+    border: 0;
 }

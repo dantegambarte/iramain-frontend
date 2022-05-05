@@ -27,3 +27,9 @@
     background: rgb(72,73,75);
     color: white;
 }
+
+.logo-navbar{
+    /* height: 3rem; */
+    /* background-color: white; */
+    border-radius: 5rem;
+}
