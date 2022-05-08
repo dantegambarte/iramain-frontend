@@ -14,5 +14,23 @@
 
 .card{
     margin: 0 1rem;
-    /* border: 1.5px solid cadetblue; */
+}
+
+/* @media (max-width: 280px) {
+    .content-img-drIramain{
+        width: 140px;
+        height: auto;
+    }
+} */
+
+@media (max-width: 1023px) {
+    .figure-img-drIramain{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+    }
+    .figure-img-drIramain h3{
+        margin-top: 1rem;
+    }
 }
