@@ -1,10 +1,10 @@
 .titleNavbar {
     margin: 0 7rem;
-    border: 1px solid cadetblue;
-    background-color: black;
+    border: 1px solid black;
+    background-color: #1c1f23;
 }
 
-.titleNavbar > button:hover{
+.titleNavbar > button:hover {
     color: white;
 }
 
@@ -22,14 +22,43 @@
     width: 2em;
 }
 
-.navBG{
+.navBG {
     --bs-bg-opacity: 1;
-    background: rgb(72,73,75);
+    background: rgb(72, 73, 75);
     color: white;
 }
 
-.logo-navbar{
-    /* height: 3rem; */
-    /* background-color: white; */
+.logo-navbar {
     border-radius: 5rem;
+}
+
+/* telefono */
+@media only screen and (max-width: 600px) {
+    .content-titleNavbar {
+        width: 30%;
+    }
+    .titleNavbar {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+}
+
+
+/* pc */
+@media (min-width: 1023px) {
+    .content-titleNavbar {
+        width: 10%;
+    }
+    .titleNavbar {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
 }

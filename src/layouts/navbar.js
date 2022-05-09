@@ -50,9 +50,9 @@ const NavbarPrincipal = () => {
                 Turnos
               </Nav.Link>
             </Nav>
-            <Nav>
+            <Nav className="content-titleNavbar">
               <DropdownButton
-                variant="black"
+                variant="dark"
                 className="titleNavbar"
                 title={titleNavbar}
               >
