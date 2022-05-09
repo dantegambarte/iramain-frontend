@@ -27,3 +27,18 @@
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 280px) {
+    .img-logo {
+      width: 140px;
+      height: auto;
+    }
+  
+    .img-contacto {
+      height: 28rem;
+    }
+  
+    #img-estudios-1 {
+      margin-top: 5.5rem !important;
+    }
+  }

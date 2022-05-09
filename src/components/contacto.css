@@ -73,3 +73,29 @@
     height: 450;
     border: 0;
 }
+
+/* telefono */
+@media only screen and (max-width: 600px) {
+    .img-contacto{
+        width: 20rem;
+        height: auto;
+    }
+
+    .text-after-map {
+        margin-left: 1rem;
+      }
+
+    .map-responsive{
+        overflow: hidden;
+        padding-bottom: 400px;
+        margin: 0 1rem;
+        position: relative;
+        height: 0;
+    }
+}
+
+
+/* pc */
+@media (min-width: 1023px) {
+
+}
